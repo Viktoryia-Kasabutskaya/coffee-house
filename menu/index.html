@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="icon" href="../assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-container">
+                <a href="../" class="logo">
+                    <img src="../assets/logo.svg" alt="logo" class="logo">
+                </a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="../#favorite-coffee" class="nav-link">Favorite coffee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../#mobile-app" class="nav-link">Mobile app</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacts" class="nav-link">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="header-menu">
+                    Menu
+                    <img src="../assets/icons/coffee-cup.svg" alt="coffee-cup" class="image-menu">
+                </a>
+                <button class="btn-burger"><span></span></button>
+            </div>
+        </header>
+        <main class="main">
+            <section class="menu">
+                <h1>Menu</h1>
+                <h2 class="subtitle menu-subtitle">Behind each of our cups hides an <span
+                        class="subtitle-highlight">amazing
+                        surprise</span></h2>
+                <div class="menu-tabs">
+                    <button class="menu-btn" data-category="coffee">
+                        <span class="menu-btn-img"><img src="../assets/images/cup.png" alt="cup"></span>
+                        Coffee
+                    </button>
+                    <button class="menu-btn" data-category="tea">
+                        <span class="menu-btn-img"><img src="../assets/images/teapot.png" alt="teapot"></span>
+                        Tea
+                    </button>
+                    <button class="menu-btn" data-category="dessert">
+                        <span class="menu-btn-img"><img src="../assets/images/dessert.png" alt="dessert"></span>
+                        Dessert
+                    </button>
+                </div>
+                <ul class="menu-list" id="menuList">
+                </ul>
+                <button class="btn-add-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M21.8883 13.5C21.1645 18.3113 17.013 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C16.1006 2 19.6248 4.46819 21.1679 8"
+                            stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M17 8H21.4C21.7314 8 22 7.73137 22 7.4V3" stroke="#403F3D" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </section>
+        </main>
+        <footer class="footer" id="contacts">
+            <div class="footer-container">
+                <div class="offer">
+                    <h2 class="subtitle subtitle-footer">Sip, Savor, Smile. <span class="subtitle-highlight">It's coffee
+                            time!</span>
+                    </h2>
+                    <div class="social-icons">
+                        <button class="btn-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M23 3.01006C23 3.01006 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 23 3.01006 23 3.01006Z"
+                                    stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="btn-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                                    stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"
+                                    stroke="#E1D4C9" />
+                                <path d="M17.5 6.51L17.51 6.49889" stroke="#E1D4C9" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                        <button class="btn-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M17 2H14C12.6739 2 11.4021 2.52678 10.4645 3.46447C9.52678 4.40215 9 5.67392 9 7V10H6V14H9V22H13V14H16L17 10H13V7C13 6.73478 13.1054 6.48043 13.2929 6.29289C13.4804 6.10536 13.7348 6 14 6H17V2Z"
+                                    stroke="#E1D4C9" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="contacts-info">
+                    <h3 class="contacts">Contact us</h3>
+                    <a href="https://www.google.com/maps/place/Green+Ave,+Los+Angeles,+CA+90017,+%D0%A1%D0%A8%D0%90/@34.051092,-118.2740716,17z/data=!3m1!4b1!4m6!3m5!1s0x80c2c7a34c447f8b:0xe3b7208a65a0b1e2!8m2!3d34.0510876!4d-118.2714967!16s%2Fg%2F1tj1sbyf?entry=ttu"
+                        class="link-contact" target="_blank">
+                        <img src="../assets/icons/location.svg" alt="location" class="contacts-icon">
+                        8558 Green Rd., LA
+                    </a>
+                    <a href="tel:16035550123" class="link-contact">
+                        <img src="../assets/icons/phone.svg" alt="phone" class="contacts-icon">
+                        +1 (603) 555-0123
+                    </a>
+                    <a href="#" class="link-contact">
+                        <img src="../assets/icons/clock.svg" alt="clock" class="contacts-icon">
+                        Mon-Sat: 9:00 AM - 23:00 PM
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
